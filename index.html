@@ -13,33 +13,23 @@
     />
     <link rel="stylesheet" href="index.css" />
     <title>Recipe page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <div id="hero">
-      <img
-        id="heading-image"
-        src="./assets/images/image-omelette.jpeg"
-        alt="omelette with vegetables inside and bread on a plate"
-      />
-      <h1>Simple Omelette Recipe</h1>
-      <p>
-        An easy and quick dish, perfect for any meal. This classic omelette
-        combines beaten eggs cooked to perfection, optionally filled with your
-        choice of cheese, vegetables, or meats.
-      </p>
-
-      <div id="preparation-instructions">
+    <main>
+      <section>
+        <img
+          id="heading-image"
+          src="./assets/images/image-omelette.jpeg"
+          alt="omelette with vegetables inside and bread on a plate"
+        />
+        <h1>Simple Omelette Recipe</h1>
+        <p>
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+      </section>
+      <section id="preparation-instructions">
         <h3 class="preparation-heading">Preparation time</h3>
         <ul>
           <li class="preparation-list-item">
@@ -48,9 +38,8 @@
           <li class="preparation-list-item"><b>Preparation:</b> 5 minutes</li>
           <li class="preparation-list-item"><b>Cooking:</b> 5 minutes</li>
         </ul>
-      </div>
-
-      <div class="sub-section" id="ingredients">
+      </section>
+      <section class="sub-section" id="ingredients">
         <h2>Ingredients</h2>
         <ul>
           <li class="ingredients-list-item">2-3 large eggs</li>
@@ -61,9 +50,9 @@
             Optional fillings: cheese, diced vegetables, cooked meats, herbs
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div class="sub-section" id="instructions">
+      <section class="sub-section" id="instructions">
         <h2>Instructions</h2>
         <ol>
           <li class="instructions-list-item">
@@ -94,38 +83,32 @@
             <b>Enjoy: </b>Serve hot, with additional salt and pepper if needed.
           </li>
         </ol>
-      </div>
-
+      </section>
       <h2 class="heading-2">Nutrition</h2>
-      <p>
-        The table below shows nutritional values per serving without the
-        additional fillings.
-      </p>
       <table>
-        <tr class="border-bottom">
-          <td>Calories</td>
-          <td class="font-bold-brown">277kcal</td>
-        </tr>
-        <tr class="border-bottom">
-          <td>Carbs</td>
-          <td class="font-bold-brown">0g</td>
-        </tr>
-        <tr class="border-bottom">
-          <td>Protein</td>
-          <td class="font-bold-brown">20g</td>
-        </tr>
-        <tr>
-          <td>Fat</td>
-          <td class="font-bold-brown">22g</td>
-        </tr>
+        <caption>
+          The table below shows nutritional values per serving without the
+          additional fillings.
+        </caption>
+        <tbody>
+          <tr class="border-bottom">
+            <td>Calories</td>
+            <td class="font-bold-brown">277kcal</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Carbs</td>
+            <td class="font-bold-brown">0g</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Protein</td>
+            <td class="font-bold-brown">20g</td>
+          </tr>
+          <tr>
+            <td>Fat</td>
+            <td class="font-bold-brown">22g</td>
+          </tr>
+        </tbody>
       </table>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Maksym Holtsev</a>.
-    </div>
+    </main>
   </body>
 </html>
